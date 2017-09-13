@@ -26,5 +26,4 @@ build:
     - script:
       name: run test
       code: |
-#        /usr/bin/google-chrome-unstable --headless --disable-gpu --remote-debugging-port=9222 --no-sandbox
         npm run test -- --single-run
